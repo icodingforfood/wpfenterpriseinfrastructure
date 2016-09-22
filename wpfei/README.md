@@ -2,7 +2,7 @@
 
 steps as follow:
 
-1. refer EnterpriseInfrastructure
+1. refer EnterpriseInfrastructure(or dll)
 
 2. add shell
 
