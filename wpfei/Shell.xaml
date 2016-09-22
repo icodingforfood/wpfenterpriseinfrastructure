@@ -1,0 +1,10 @@
+﻿<Window x:Class="wpfei.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shell"
+        Width="576"
+        Height="1024"
+        ResizeMode="CanMinimize"
+        WindowStyle="ToolWindow">
+    <Grid />
+</Window>
