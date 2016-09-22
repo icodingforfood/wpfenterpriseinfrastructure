@@ -9,4 +9,3 @@
 |4. support Observer(publish-subscribe pattern)|
 |5. log4net                                    |
 |6. dynamic proxy                              |
-|                                              |                     
