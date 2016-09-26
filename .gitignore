@@ -1,6 +1,10 @@
 obj
 bin
+output
 *.suo
 *.g.i.cs
 *.cache
 *.g.cs
+*.pdb
+*.vshost.exe
+*.exe.manifest

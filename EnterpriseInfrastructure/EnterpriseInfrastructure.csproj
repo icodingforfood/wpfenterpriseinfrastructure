@@ -59,17 +59,25 @@
     <Compile Include="Commands\WeakEventHandlerManager.cs" />
     <Compile Include="ControllerBase.cs" />
     <Compile Include="Exceptions\ExceptionExtensions.cs" />
+    <Compile Include="Exceptions\IExceptionHandler.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="IDependency.cs" />
+    <Compile Include="IServiceProxyInterceptor.cs" />
+    <Compile Include="IViewModel.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\LogLevel.cs" />
     <Compile Include="ModuleBase.cs" />
     <Compile Include="NotificationObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\IRegion.cs" />
+    <Compile Include="UI\IRegionCollection.cs" />
+    <Compile Include="UI\IRegionManager.cs" />
+    <Compile Include="UI\IViewLocator.cs" />
     <Compile Include="ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DynamicProxy\" />
     <Folder Include="Events\" />
-    <Folder Include="Logging\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
